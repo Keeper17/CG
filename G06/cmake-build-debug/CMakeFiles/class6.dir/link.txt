@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/class6.dir/main.cpp.o  -o class6 -lGLEW -lIL -lGL -lGLU -lglut -lXmu -lXi 
