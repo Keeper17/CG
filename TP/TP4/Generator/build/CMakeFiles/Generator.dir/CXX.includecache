@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shifu/MEI/CG/Trabalho1/Projeto_CG/P1/Generator/generator.cpp
+math.h
+-
+iostream
+-
+vector
+-
+fstream
+-
+istream
+-
+sstream
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+

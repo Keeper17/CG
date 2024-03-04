@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Generator.dir/generator.cpp.o  -o Generator -lGL -lGLU -lglut -lXmu -lXi 

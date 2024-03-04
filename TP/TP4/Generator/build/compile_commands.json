@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/shifu/MEI/CG/Trabalho1/Projeto_CG/P1/Generator/build",
+  "command": "/usr/bin/g++-7    -g   -std=gnu++11 -o CMakeFiles/Generator.dir/generator.cpp.o -c /home/shifu/MEI/CG/Trabalho1/Projeto_CG/P1/Generator/generator.cpp",
+  "file": "/home/shifu/MEI/CG/Trabalho1/Projeto_CG/P1/Generator/generator.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/class9.dir/main.cpp.o  -o class9 -lGLEW -lGL -lGLU -lglut -lXmu -lXi 

@@ -1,0 +1,39 @@
+<scene>
+ <!--Sol-->
+ <group>
+  <translate X = "20" />
+  <scale X="5" Y="5" Z="5"/>
+  <models>
+   <model file="cone.3d" texture="Texturas/sun.jpg"/>
+  </models>
+ </group>
+ <group>
+  <translate X = "-20" />
+  <scale X="5" Y="5" Z="5"/>
+  <models>
+   <model file="box.3d" texture="Texturas/sun.jpg"/>
+  </models>
+ </group>
+ <group>
+  <translate X = "-20" Z = "20" />
+  <scale X="5" Y="5" Z="5"/>
+  <models>
+   <model file="plane.3d" texture="Texturas/sun.jpg"/>
+  </models>
+ </group>
+ <group>
+  <translate X = "-20" Z = "-20" />
+  <scale X="1" Y="1" Z="1"/>
+ <rotate angle="-90" axisX="1" axisY="0" axisZ="0" />
+  <models>
+   <model file="bezier.3d" texture="Texturas/sun.jpg"/>
+  </models>
+ </group>
+ <group>
+  <translate X = "20" Z = "20" />
+  <scale X="5" Y="5" Z="5"/>
+  <models>
+   <model file="sphere.3d" texture="Texturas/sun.jpg"/>
+  </models>
+ </group>
+</scene>

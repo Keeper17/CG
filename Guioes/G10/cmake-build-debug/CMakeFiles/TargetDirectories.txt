@@ -1,0 +1,3 @@
+/home/antonio/Desktop/CG_Apresentacao/Guioes/G10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/antonio/Desktop/CG_Apresentacao/Guioes/G10/cmake-build-debug/CMakeFiles/class10.dir
+/home/antonio/Desktop/CG_Apresentacao/Guioes/G10/cmake-build-debug/CMakeFiles/edit_cache.dir

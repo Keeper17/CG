@@ -1,0 +1,294 @@
+<scene>
+ <!--Sol-->
+ <group>
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <scale X="9.6" Y="9.5" Z="9.5"/>
+  <models>
+   <model file="sphere.3d" texture="Texturas/sun.jpg"/>
+  </models>
+ </group>
+ <!--Mercúrio-->
+ <group>
+  <rotate angle="-0.1" axisX="0" axisY="0" axisZ="1" />
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <scale X="0.4878" Y="0.4878" Z="0.4878"/>
+  <translacao tempo="8">
+   <ponto pX="15" pY="0" pZ="0"/>
+   <ponto pX="10.6" pY="0" pZ="10.6"/>
+   <ponto pX="0" pY="0" pZ="15"/>
+   <ponto pX="-10.6" pY="0" pZ="10.6"/>
+   <ponto pX="-15" pY="0" pZ="0"/>
+   <ponto pX="-10.6" pY="0" pZ="-10.6"/>
+   <ponto pX="0" pY="0" pZ="-15"/>
+   <ponto pX="10.6" pY="0" pZ="-10.6"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/mercury.jpg"/>
+  </models>
+ </group>
+ <!--Venus-->
+ <group>
+  <rotate angle="177.3" axisX="0" axisY="0" axisZ="1" />
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <scale X="1.2104" Y="1.2104" Z="1.2104"/>
+  <translacao tempo="22">
+   <ponto pX="22" pY="0" pZ="0"/>
+   <ponto pX="15.55" pY="0" pZ="15.55"/>
+   <ponto pX="0" pY="0" pZ="22"/>
+   <ponto pX="-15.55" pY="0" pZ="15.55"/>
+   <ponto pX="-22" pY="0" pZ="0"/>
+   <ponto pX="-15.55" pY="0" pZ="-15.55"/>
+   <ponto pX="0" pY="0" pZ="-22"/>
+   <ponto pX="15.55" pY="0" pZ="-15.55"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/venus.jpg"/>
+  </models>
+ </group>
+ <!--Terra-->
+ <group>
+  <rotate angle="-23.26" axisX="0" axisY="0" axisZ="1" />
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <scale X="1.2742" Y="1.2742" Z="1.2742"/>
+  <translacao tempo="36">
+   <ponto pX="27.5" pY="0" pZ="0"/>
+   <ponto pX="19.44" pY="0" pZ="19.44"/>
+   <ponto pX="0" pY="0" pZ="27.5"/>
+   <ponto pX="-19.44" pY="0" pZ="19.44"/>
+   <ponto pX="-27.5" pY="0" pZ="0"/>
+   <ponto pX="-19.44" pY="0" pZ="-19.44"/>
+   <ponto pX="0" pY="0" pZ="-27.5"/>
+   <ponto pX="19.44" pY="0" pZ="-19.44"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/earth.jpg"/>
+  </models>
+  <!--Lua-->
+  <group>
+   <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+   <rotate angle="-2" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.28" Y="0.28" Z="0.28" />
+  <translacao tempo="1">
+   <ponto pX="1.8" pY="0" pZ="0"/>
+   <ponto pX="1.3" pY="0" pZ="1.3"/>
+   <ponto pX="0" pY="0" pZ="1.8"/>
+   <ponto pX="-1.3" pY="0" pZ="1.3"/>
+   <ponto pX="-1.8" pY="0" pZ="0"/>
+   <ponto pX="-1.3" pY="0" pZ="-1.3"/>
+   <ponto pX="0" pY="0" pZ="-1.8"/>
+   <ponto pX="1.3" pY="0" pZ="-1.3"/>
+  </translacao>
+   <models>
+    <model file="sphere.3d" texture="Texturas/moon.jpg"/>
+   </models>
+  </group>
+ </group>
+ <!--Marte-->
+ <group>
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <rotate angle="-25.19" axisX="0" axisY="0" axisZ="1" />
+  <scale X="0.678" Y="0.678" Z="0.678"/>
+  <translacao tempo="68">
+   <ponto pX="36.5" pY="0" pZ="0"/>
+   <ponto pX="25.8" pY="0" pZ="25.8"/>
+   <ponto pX="0" pY="0" pZ="36.5"/>
+   <ponto pX="-25.8" pY="0" pZ="25.8"/>
+   <ponto pX="-36.5" pY="0" pZ="0"/>
+   <ponto pX="-25.8" pY="0" pZ="-25.8"/>
+   <ponto pX="0" pY="0" pZ="-36.5"/>
+   <ponto pX="25.8" pY="0" pZ="-25.8"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/mars.jpg"/>
+  </models>
+  <!--Fobos-->
+  <group>
+   <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+   <rotate angle="-2" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.21" Y="0.21" Z="0.21" />
+  <translacao tempo="12">
+   <ponto pX="-1.3" pY="0" pZ="0"/>
+   <ponto pX="-0.9" pY="0" pZ="-0.9"/>
+   <ponto pX="0" pY="0" pZ="-1.3"/>
+   <ponto pX="0.9" pY="0" pZ="-0.9"/>
+   <ponto pX="1.3" pY="0" pZ="0"/>
+   <ponto pX="0.9" pY="0" pZ="0.9"/>
+   <ponto pX="0" pY="0" pZ="1.3"/>
+   <ponto pX="-0.9" pY="0" pZ="0.9"/>
+  </translacao>
+   <models>
+    <model file="sphere.3d" texture="Texturas/phobos.jpg"/>
+   </models>
+  </group>
+ </group>
+ <!--Jupiter-->
+ <group>
+ <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+ <rotate angle="-3.13" axisX="0" axisY="0" axisZ="1" />
+ <scale X="3" Y="3" Z="3"/>
+  <translacao tempo="433">
+   <ponto pX="59" pY="0" pZ="0"/>
+   <ponto pX="41.72" pY="0" pZ="41.72"/>
+   <ponto pX="0" pY="0" pZ="59"/>
+   <ponto pX="-41.72" pY="0" pZ="41.72"/>
+   <ponto pX="-59" pY="0" pZ="0"/>
+   <ponto pX="-41.72" pY="0" pZ="-41.7193"/>
+   <ponto pX="0" pY="0" pZ="-59"/>
+   <ponto pX="41.72" pY="0" pZ="-41.72"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/jupiter.jpg"/>
+  </models>
+  <!--Europa-->
+  <group>
+   <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+   <rotate angle="-0.5" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.11" Y="0.11" Z="0.11" />
+  <translacao tempo="10">
+   <ponto pX="1.8" pY="0" pZ="0"/>
+   <ponto pX="1.23" pY="0" pZ="1.23"/>
+   <ponto pX="0" pY="0" pZ="1.8"/>
+   <ponto pX="-1.23" pY="0" pZ="1.23"/>
+   <ponto pX="-1.8" pY="0" pZ="0"/>
+   <ponto pX="-1.23" pY="0" pZ="-1.23"/>
+   <ponto pX="0" pY="0" pZ="-1.8"/>
+   <ponto pX="1.23" pY="0" pZ="-1.23"/>
+  </translacao>
+   <models>
+    <model file="sphere.3d" texture="Texturas/europa.jpg" />
+   </models>
+  </group>
+ </group>
+ <!--Saturno-->
+ <group>
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <rotate angle="-26.73" axisX="0" axisY="0" axisZ="1" />
+  <scale X="2.4" Y="2.4" Z="2.4"/>
+  <translacao tempo="1076">
+   <ponto pX="70" pY="0" pZ="0"/>
+   <ponto pX="49.5" pY="0" pZ="49.5"/>
+   <ponto pX="0" pY="0" pZ="70"/>
+   <ponto pX="-49.5" pY="0" pZ="49.5"/>
+   <ponto pX="-70" pY="0" pZ="0"/>
+   <ponto pX="-49.5" pY="0" pZ="-49.5"/>
+   <ponto pX="0" pY="0" pZ="-70"/>
+   <ponto pX="49.5" pY="0" pZ="-49.5"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/saturn.jpg"/>
+  </models>
+  <!--Titã-->
+ <group>
+ <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <rotate angle="0.4" axisX="0" axisY="0" axisZ="1" />
+  <scale X="0.15" Y="0.15" Z="0.15" />
+  <translacao tempo="5">
+   <ponto pX="1.2" pY="0" pZ="0"/>
+   <ponto pX="0.84" pY="0" pZ="0.84"/>
+   <ponto pX="0" pY="0" pZ="1.2"/>
+   <ponto pX="-0.84" pY="0" pZ="0.84"/>
+   <ponto pX="-1.2" pY="0" pZ="0"/>
+   <ponto pX="-0.84" pY="0" pZ="-0.84"/>
+   <ponto pX="0" pY="0" pZ="-1.2"/>
+   <ponto pX="0.84" pY="0" pZ="-0.84"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/titan.jpg"/>
+  </models>
+  </group>
+ </group>
+ <!--Urano-->
+ <group>
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <rotate angle="-97.77" axisX="0" axisY="0" axisZ="1" />
+  <scale X="1.9" Y="1.9" Z="1.9"/>
+  <translacao tempo="3068">
+   <ponto pX="85" pY="0" pZ="0"/>
+   <ponto pX="60.1" pY="0" pZ="60.1"/>
+   <ponto pX="0" pY="0" pZ="85"/>
+   <ponto pX="-60.1" pY="0" pZ="60.1"/>
+   <ponto pX="-85" pY="0" pZ="0"/>
+   <ponto pX="-60.1" pY="0" pZ="-60.1"/>
+   <ponto pX="0" pY="0" pZ="-85"/>
+   <ponto pX="60.1" pY="0" pZ="-60.1"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/uranus.jpg"/>
+  </models>
+  <!--Umbriel-->
+ <group>
+ <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <rotate angle="0.2" axisX="0" axisY="0" axisZ="1" />
+  <scale X="0.18" Y="0.18" Z="0.18" />
+  <translacao tempo="7">
+   <ponto pX="1.4" pY="0" pZ="0"/>
+   <ponto pX="1" pY="0" pZ="1"/>
+   <ponto pX="0" pY="0" pZ="1.4"/>
+   <ponto pX="-1" pY="0" pZ="1"/>
+   <ponto pX="-1.4" pY="0" pZ="0"/>
+   <ponto pX="-1" pY="0" pZ="-1"/>
+   <ponto pX="0" pY="0" pZ="-1.4"/>
+   <ponto pX="1" pY="0" pZ="-1"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/umbriel.jpg"/>
+  </models>
+  </group>
+ </group>
+ <!--Neptuno-->
+ <group>
+  <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+  <rotate angle="-28.32" axisX="0" axisY="0" axisZ="1" />
+  <scale X="1.5" Y="1.5" Z="1.5"/>
+  <translacao tempo="6019">
+   <ponto pX="96" pY="0" pZ="0"/>
+   <ponto pX="67.88" pY="0" pZ="67.88"/>
+   <ponto pX="0" pY="0" pZ="96"/>
+   <ponto pX="-67.88" pY="0" pZ="67.88"/>
+   <ponto pX="-96" pY="0" pZ="0"/>
+   <ponto pX="-67.88" pY="0" pZ="-67.88"/>
+   <ponto pX="0" pY="0" pZ="-96"/>
+   <ponto pX="67.88" pY="0" pZ="-67.88"/>
+  </translacao>
+  <models>
+   <model file="sphere.3d" texture="Texturas/neptune.jpg"/>
+  </models>
+  <!--Tritão-->
+  <group>
+   <rotacao tempo="62.9" eX="0" eY="1" eZ="0" />
+   <rotate angle="157" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.14" Y="0.14" Z="0.14" />
+  <translacao tempo="20">
+   <ponto pX="1.6" pY="0" pZ="0"/>
+   <ponto pX="1.1" pY="0" pZ="1.1"/>
+   <ponto pX="0" pY="0" pZ="1.6"/>
+   <ponto pX="-1.1" pY="0" pZ="1.1"/>
+   <ponto pX="-1.6" pY="0" pZ="0"/>
+   <ponto pX="-1.1" pY="0" pZ="-1.1"/>
+   <ponto pX="0" pY="0" pZ="-1.6"/>
+   <ponto pX="1.1" pY="0" pZ="-1.1"/>
+  </translacao>
+   <models>
+    <model file="sphere.3d" texture="Texturas/triton.jpg"/>
+   </models>
+  </group>
+ </group>
+ <!--Cometa-->
+ <group>
+  <rotate angle="-90" axisX="1" axisY="0" axisZ="0" />
+  <scale X="1.5" Y="1" Z="1" />
+  <translacao tempo="50">
+   <ponto pX="15" pY="13" pZ="0"/>
+   <ponto pX="0" pY="13" pZ="10"/>
+   <ponto pX="0" pY="0" pZ="30"/>
+   <ponto pX="-10" pY="13" pZ="10"/>
+   <ponto pX="-15" pY="-13" pZ="0"/>
+   <ponto pX="-10" pY="13" pZ="-10"/>
+   <ponto pX="0" pY="0" pZ="-30"/>
+   <ponto pX="10" pY="13" pZ="-10"/>
+  </translacao>
+  <models>
+   <model file="bezier.3d" texture="Texturas/comet.jpg"/>
+  </models>
+ </group>
+</scene>

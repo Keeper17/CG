@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/antonio/Desktop/CG_Apresentacao/Guioes/G11/main.cpp
+stdlib.h
+-
+stdio.h
+-
+vector
+-
+string
+-
+math.h
+-
+GLUT/glut.h
+-
+/usr/local/Cellar/devil/1.8.0_1/include/IL/il.h
+-
+GL/glew.h
+-
+GL/glut.h
+-
+IL/il.h
+-
+

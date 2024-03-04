@@ -1,0 +1,135 @@
+<scene>
+ <group>
+  <translate X="-8" />
+  <scale X="8" Y="8" Z="8" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+ </group>
+
+ <group>
+  <translate X="2.53" />
+  <rotate angle="-0.1" axisX="0" axisY="0" axisZ="1" />
+  <scale X="0.218" Y="0.218" Z="0.218" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+ </group>
+
+ <group>
+  <translate X="4.8" />
+  <rotate angle="-177" axisX="0" axisY="0" axisZ="1" />
+  <scale X="0.54" Y="0.54" Z="0.54" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+ </group>
+
+ <group>
+  <translate X="6.67" />
+  <scale X="0.568" Y="0.568" Z="0.568" />
+  <rotate angle="-23.5" axisX="0" axisY="0" axisZ="1" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+  <group>
+   <translate X="-0.6485" Y="1.96" />
+   <scale X="0.4" Y="0.4" Z="0.4" />
+   <rotate angle="18.35" axisX="0" axisY="0" axisZ="1" />
+   <models>
+    <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+   </models>
+  </group>
+ </group>
+
+ <group>
+  <translate X="10.13"/>
+  <rotate angle="-25" axisX="0" axisY="0" axisZ="1" />
+  <scale X="0.302" Y="0.302" Z="0.302" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+  <group>
+   <translate X="-0.82" Y="1.85" />
+   <rotate angle="24" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.5" Y="0.5" Z="0.5" />
+   <models>
+    <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+   </models>
+  </group>
+ </group>
+
+ <group>
+  <translate X="34.67" />
+  <rotate angle="-3" axisX="0" axisY="0" axisZ="1" />
+  <scale X="2.2" Y="2.2" Z="2.2" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+  <group>
+   <translate X="-0.16" Y="2.43" />
+   <rotate angle="2.8" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.2" Y="0.2" Z="0.2" />
+   <models>
+    <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+   </models>
+  </group>
+ </group>
+
+ <group>
+  <translate X="63.3" />
+  <rotate angle="-27" axisX="0" axisY="0" axisZ="1" />
+  <scale X="2" Y="2" Z="2" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+  <group>
+   <scale X="2.2" Z="2.2" />
+   <models>
+    <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+   </models>
+  </group>
+  <group>
+   <translate X="-0.92" Y="1.84" />
+   <rotate angle="26.67" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.12" Y="0.12" Z="0.12" />
+   <models>
+    <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+   </models>
+  </group>
+ </group>
+
+ <group>
+  <translate X="127.99" />
+  <rotate angle="-98" axisX="0" axisY="0" axisZ="1" />
+  <scale X="1.2" Y="1.2" Z="1.2" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+  <group>
+   <translate X="-2.01" Y="-0.28"/>
+   <rotate angle="97.86" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.15" Y="0.15" Z="0.15" />
+   <models>
+    <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+   </models>
+  </group>
+ </group>
+
+ <group>
+  <translate X="200" />
+  <rotate angle="-30" axisX="0" axisY="0" axisZ="1" />
+  <scale X="1.1" Y="1.1" Z="1.1" />
+  <models>
+   <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+  </models>
+  <group>
+   <translate X="1.62" Y="-1.23" />
+   <rotate angle="-127.35" axisX="0" axisY="0" axisZ="1" />
+   <scale X="0.2" Y="0.2" Z="0.2" />
+   <models>
+    <model file="/home/aninhas/Desktop/CENAS/TrabM2/Generator/cmake-build-debug/sphere.3d" />
+   </models>
+  </group>
+ </group>
+</scene>

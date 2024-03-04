@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/antonio/Desktop/CG_Apresentacao/TP/TP4/Generator/generator.cpp
+math.h
+-
+iostream
+-
+vector
+-
+fstream
+-
+istream
+-
+sstream
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+cstring
+-
+

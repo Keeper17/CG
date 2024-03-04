@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="engine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine">
+				<Option output="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/engine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/§{IL_INCLUDE_DIR}"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 engine"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine/fast">
+				<Option output="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/engine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/§{IL_INCLUDE_DIR}"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 engine/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/engine.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/tinyxml2.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/tinyxml2.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/tarly127/Documents/GitHub/Projeto_CG/P4/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
